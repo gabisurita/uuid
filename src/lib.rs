@@ -114,6 +114,7 @@
 #![deny(warnings)]
 #![cfg_attr(not(feature = "std"), no_std)]
 #![cfg_attr(feature = "const_fn", feature(const_fn))]
+#![feature(rust_2018_preview)]
 
 #[cfg(feature = "byteorder")]
 extern crate byteorder;
