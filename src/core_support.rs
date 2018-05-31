@@ -10,7 +10,7 @@
 // except according to those terms.
 
 use core::{fmt, str};
-use prelude::*;
+use crate::prelude::*;
 
 impl fmt::Display for Uuid {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {

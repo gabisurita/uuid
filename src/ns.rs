@@ -1,6 +1,6 @@
 //! The well-known `Uuid` namespaces.
 
-use prelude::*;
+use crate::prelude::*;
 
 /// A UUID of the namespace of fully-qualified domain names.
 pub const NAMESPACE_DNS: Uuid = Uuid {

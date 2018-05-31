@@ -10,7 +10,7 @@
 // except according to those terms.
 
 use std::error;
-use ParseError;
+use crate::ParseError;
 
 impl error::Error for ParseError {
     fn description(&self) -> &str {
